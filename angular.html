@@ -1,0 +1,14 @@
+<!doctype html>
+<html ng-app="app">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<script src="angular.js"></script>
+<div>
+    <div ng-controller="MainCtrl">
+        <ul>
+            <li ng-repeat="item in items">
+                {{ item.name }}
+            </li>
+        </ul>
+    </div>
+</div>
+</html>
